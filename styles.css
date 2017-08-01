@@ -1,0 +1,81 @@
+body{
+  box-sizing: border-box;
+  color: #383531;
+  font-family: 'Arial', sans-serif;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.c-head{
+  margin: 40px auto 50px;
+}
+
+.f-head{
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.c-empInfo{
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.f-empInfo {
+  text-align: center;
+}
+
+.s-empInfo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.c-indiv{
+  min-width: 240px;
+  margin: 5px;
+}
+
+.f-indiv{
+  text-align: center;
+}
+
+.s-indiv{
+  flex-flow: column;
+  justify-content: center;
+}
+
+.ctmImg{
+  width: 100%;
+  max-height: 220px;
+}
+.ctmName{
+  font-size: 17.5px;
+  margin: 10px 0 0 0;
+  padding: 5px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.ctmEmail{
+  color: #d1d1d1;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 13px;
+  margin: 2px 0 22px;
+  text-transform: uppercase;
+}
+
+.ctmLocation{
+  color: #727272;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 14px;
+  margin: 6px auto;
+  text-transform: capitalize;
+}
+
+.ctmSSN{
+  color: #77ba85;
+  font-size: 14px;
+  margin: 25px 0 60px 0;
+}
