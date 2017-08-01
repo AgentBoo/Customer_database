@@ -31,3 +31,10 @@ customerDIV.innerHTML = customerContent;
 // return the div in the <main> every time
 main_content.appendChild(customerDIV);
 }
+
+// Hover using javascript
+// const onHover = document.querySelector(".ctmSSN");
+// onHover.addEventListener("mouseover", function(event){
+//   if (event.onmouseover === true){
+//   } onHover.classList.add("ctmSSN-hover--js");
+// })
